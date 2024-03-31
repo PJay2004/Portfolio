@@ -1,0 +1,34 @@
+.about {
+  height: calc(100vh);
+  overflow: hidden;
+  background: linear-gradient(180deg, #111133, #0c0c1d);
+  position: relative;
+  z-index: -10;
+
+  .wrapper {
+    width: 82%;
+    max-width: 1366px;
+    height: 100%;
+    margin: auto;
+    margin-top: 90px;
+
+    .textContainer {
+      height: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 25px;
+
+      h2 {
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        font-weight: normal;
+      }
+
+      h1 {
+        font-size: 65px;
+      }
+    }
+  }
+}
